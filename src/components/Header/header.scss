@@ -1,0 +1,11 @@
+@use 'src/styles/vars';
+
+.header{
+    display: flex;
+    padding: vars.$gutter*2;
+
+    &-text{
+        font-size: xx-large;
+
+    }
+}
