@@ -1,4 +1,5 @@
 import { createStore, compose, applyMiddleware } from 'redux';
+import burgerreducer from '../reducers/burgerreducer';
 
 
 
@@ -6,7 +7,7 @@ import { createStore, compose, applyMiddleware } from 'redux';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const store = createStore(
-
+  burgerreducer,
   composeEnhancers(applyMiddleware()),
 );
 
