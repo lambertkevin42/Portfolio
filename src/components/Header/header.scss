@@ -5,7 +5,8 @@
     padding: vars.$gutter*2;
 
     &-text{
-        font-size: xx-large;
-
+        font-size: 45px;
+        text-shadow: vars.$grey 5px 0 5px;
+        letter-spacing: -20px;
     }
 }

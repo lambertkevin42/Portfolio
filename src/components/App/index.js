@@ -3,6 +3,7 @@ import '../../components/App/app.scss';
 import { useEffect } from 'react';
 import Footer from '../Footer';
 import Header from '../Header';
+import MyCard from '../MyCard';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="app">
       <Header/>
+      <MyCard/>
       <Footer/>
     </div>
   );
